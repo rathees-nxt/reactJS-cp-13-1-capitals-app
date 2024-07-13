@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.capitals-container {
+  background-color: #f8fafc;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 350px;
+  width: 90%;
+}
+.heading {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+.question-container {
+  display: flex;
+  align-items: center;
+}
+.capital-select {
+  background-color: #f8fafc;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  outline: none;
+  padding: 4px 0px 4px 8px;
+}
+.option {
+  color: #323f4b;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+}
+.question {
+  color: #000000;
+  font-family: roboto;
+  font-size: 12px;
+  margin-left: 8px;
+}
+.country {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .capitals-container {
+    padding: 44px 64px 0px;
+    max-width: 600px;
+  }
+  .heading {
+    text-align: left;
+    font-size: 32px;
+  }
+  .capital-select {
+    padding: 8px 0px 16px 16px;
+    width: 180px;
+    font-size: 16px;
+  }
+  .option {
+    font-size: 14px;
+  }
+  .question {
+    font-size: 16px;
+  }
+  .country {
+    font-size: 24px;
+  }
+}
